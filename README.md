@@ -4,4 +4,4 @@
 
 Docs are at
 
-[http://localhost:3000/swagger]()
+[http://localhost:3000/swagger](http://localhost:3000/swagger)
