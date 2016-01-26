@@ -28,6 +28,8 @@ gem 'grape', '0.12.0'
 gem 'grape-swagger', '0.10.2'
 gem 'grape-rails-routes'
 
+gem 'grape-scaffold'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
