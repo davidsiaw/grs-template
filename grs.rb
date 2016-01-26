@@ -16,7 +16,7 @@ def replace(filename, pname, cap_pname)
 end
 
 if !ARGV[0]
-	puts "USAGE: grs.rb <project-name>"
+	puts "USAGE: curl https://raw.githubusercontent.com/davidsiaw/grs-template/master/grs.rb | ruby -- - <project-name>"
 	exit
 end
 

@@ -1,6 +1,8 @@
 # Grape Rails Swagger Template
 
-`bundle exec rails s`
+To install:
+
+`curl https://raw.githubusercontent.com/davidsiaw/grs-template/master/grs.rb | ruby -- - <project-name>`
 
 Docs are at
 
