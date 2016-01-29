@@ -30,6 +30,8 @@ gem 'grape-rails-routes'
 
 gem 'grape-scaffold'
 
+gem 'rack-cors'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

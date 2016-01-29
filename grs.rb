@@ -30,11 +30,14 @@ curdir = `pwd`.chomp
 
 puts "Downloading template..."
 puts `wget --no-check-certificate https://github.com/davidsiaw/grs-template/archive/master.tar.gz`
-puts `tar xvf master.tar.gz`
-puts `rm master.tar.gz`
-puts `mv grs-template-master #{pname}`
 
-puts "Setting up"
+puts "Extracting template..."
+puts `tar xvf master.tar.gz`
+puts `rm -v master.tar.gz`
+puts `mv -v grs-template-master #{pname}`
+puts `rm -v #{pname}/grs.rb`
+
+puts "Setting up template..."
 replace("#{curdir}/#{pname}/config/initializers/session_store.rb", pname, cap_pname)
 replace("#{curdir}/#{pname}/app/views/layouts/application.html.erb", pname, cap_pname)
 replace("#{curdir}/#{pname}/config/application.rb", pname, cap_pname)
